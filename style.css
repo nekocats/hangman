@@ -1,0 +1,39 @@
+#container {
+    font-size: 4em;
+    color: pink;
+    background-color: black;
+}
+
+#lives {
+    color: red;
+}
+
+#incorrect-letters {
+    letter-spacing: 0.2em;
+    color: red;
+}
+
+#secret-word span {
+    padding: 4px;
+    color: pink;
+}
+
+body {
+    background-color: black;
+    font-family: Poppins;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: Poppins;
+}
+
+button:hover {
+    color: red;
+}
+
+button:active {
+    color:green;
+}
