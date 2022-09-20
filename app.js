@@ -55,6 +55,71 @@ document.addEventListener('keydown', (e) => {
         }
 
     }
+    
+    if (lives == 8) {
+        document.getElementById("1").style.display = "block";
+    }
+    else if (lives == 7) {
+        document.getElementById("2").style.display = "block";
+        document.getElementById("1").style.display = "block";
+    }
+    else if (lives == 6) {
+        document.getElementById("3").style.display = "block";
+        document.getElementById("1").style.display = "block";
+        document.getElementById("2").style.display = "block";
+    }
+    else if (lives == 5) {
+        document.getElementById("3").style.display = "block";
+        document.getElementById("1").style.display = "block";
+        document.getElementById("2").style.display = "block";
+        document.getElementById("4").style.display = "block";
+    }
+    else if (lives == 4) {
+        document.getElementById("3").style.display = "block";
+        document.getElementById("1").style.display = "block";
+        document.getElementById("2").style.display = "block";
+        document.getElementById("4").style.display = "block";
+        document.getElementById("5").style.display = "block";
+    }
+    else if (lives == 3) {
+        document.getElementById("3").style.display = "block";
+        document.getElementById("1").style.display = "block";
+        document.getElementById("2").style.display = "block";
+        document.getElementById("4").style.display = "block";
+        document.getElementById("5").style.display = "block";
+        document.getElementById("6").style.display = "block";
+    }
+    else if (lives == 2) {
+        document.getElementById("3").style.display = "block";
+        document.getElementById("1").style.display = "block";
+        document.getElementById("2").style.display = "block";
+        document.getElementById("4").style.display = "block";
+        document.getElementById("5").style.display = "block";
+        document.getElementById("6").style.display = "block";
+        document.getElementById("7").style.display = "block";
+    }
+    else if (lives == 1) {
+        document.getElementById("3").style.display = "block";
+        document.getElementById("1").style.display = "block";
+        document.getElementById("2").style.display = "block";
+        document.getElementById("4").style.display = "block";
+        document.getElementById("5").style.display = "block";
+        document.getElementById("6").style.display = "block";
+        document.getElementById("7").style.display = "block";
+        document.getElementById("8").style.display = "block";
+    }
+    else if (lives == 0) {
+        document.getElementById("3").style.display = "block";
+        document.getElementById("1").style.display = "block";
+        document.getElementById("2").style.display = "block";
+        document.getElementById("4").style.display = "block";
+        document.getElementById("5").style.display = "block";
+        document.getElementById("6").style.display = "block";
+        document.getElementById("7").style.display = "block";
+        document.getElementById("8").style.display = "block";
+        document.getElementById("9").style.display = "block";
+    }
+
 
     console.log(charGuess, incorrectLetters);
 });
